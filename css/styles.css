@@ -374,7 +374,7 @@ img {
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.paragraf:hover {
+.portfolio-item:hover .paragraf {
     transform: translateY(0%);
 }
 
@@ -486,7 +486,7 @@ img {
 .footer-social-links {
     display: flex;
     gap: 16px;
-  
+    padding: 0;
 }
 
 .social-item-footer {
