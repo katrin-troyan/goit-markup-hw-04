@@ -433,12 +433,12 @@ img {
     padding: 100px 0;
 }
 
-.container-footer {
+.footer-page .container {
     display: flex;
     align-items: baseline;
 }
 
-.container-logo {
+.footer-page .container .container-logo {
     margin-right: 120px;
 }
 
@@ -471,6 +471,10 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px
+}
+
+.footer-page .container.container-footer-social {
+    display: flex;
 }
 
 .paragraf-social {
