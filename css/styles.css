@@ -73,7 +73,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #404bbf;
     padding: 24px 0;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -83,9 +83,9 @@ img {
     color: #404bbf;
 }
 
-.link:hover::after {
-    content: ""
-        width: 100%;
+.link::after {
+    content: "";
+    width: 100%;
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -137,6 +137,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
 }
 
 
@@ -362,21 +363,19 @@ img {
 
 }
 
-.portfolio-item {
-    width: calc((100% - 48px) / 3);
-}
-
-.portfolio-item:hover {
+.portfolio-menu:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.portfolio-item {
+    width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .portfolio-item:hover {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    position: absolute;
-    top: 0;
-    left: 0;
+    transform: translateY(0%);
 }
 
 .container-portfolio {
@@ -384,7 +383,7 @@ img {
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .container-portfolio:hover {
@@ -394,21 +393,22 @@ img {
 .container-img {
     position: relative;
     overflow: hidden;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-    padding: 40px 32px;
-    background-color: #4d5ae5;
-    height: 100%;
-    width: 100%;
-    transform: translateY(100%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .paragraf {
     position: absolute;
     top: 0;
     font-size: 16px;
+    line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+        padding: 40px 32px;
+        background-color: #4d5ae5;
+        height: 100%;
+        width: 100%;
+        transform: translateY(100%);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-title {
