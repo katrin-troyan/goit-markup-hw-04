@@ -374,7 +374,7 @@ img {
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-item:hover .paragraf {
+.portfolio-menu:hover .paragraf {
     transform: translateY(0%);
 }
 
@@ -386,11 +386,7 @@ img {
     
 }
 
-.container-portfolio:hover {
-    transform: translateY(0%);
-}
-
-.container-img {
+.portfolio-item .container-img {
     position: relative;
     overflow: hidden;
     
