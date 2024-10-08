@@ -28,8 +28,7 @@ img {
 .header .container {
     display: flex;
     justify-content: space-between;
-    width: 1440px;
-        height: 72px;
+    height: 72px;
 
 }
 
@@ -111,6 +110,7 @@ img {
 
 .contacts-menu {
     display: flex;
+    align-items: center;
     gap: 40px;
 }
 
@@ -134,14 +134,12 @@ img {
 
 .hero {
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
     max-width: 1440px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    }
-
-
+}
 
 .page-title {
     font-weight: 700;
@@ -154,7 +152,6 @@ img {
     padding-bottom: 48px;
     margin: 0 auto;
     display: block;
-
 }
 
 
@@ -432,6 +429,13 @@ img {
 .footer-page .container {
     display: flex;
     align-items: baseline;
+}
+
+.footer-page .container-footer-social {
+    display: flex;
+    flex-direction: column;
+   
+
 }
 
 .container-logo {
