@@ -224,7 +224,6 @@ img {
 
 
 .icon-studio {
-
     fill: none;
 }
 
@@ -431,12 +430,6 @@ img {
     align-items: baseline;
 }
 
-.footer-page .container-footer-social {
-    display: flex;
-    flex-direction: column;
-   
-
-}
 
 .container-logo {
     margin-right: 120px;
@@ -482,10 +475,12 @@ img {
     margin-bottom: 16px;
 }
 
-.footer-social-links {
+.footer-social {
     display: flex;
     gap: 16px;
     padding-left: 0;
+    padding-top: 12px;
+   
     }
 
 .social-item-footer {
